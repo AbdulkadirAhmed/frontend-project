@@ -1,0 +1,63 @@
+body{
+    background-image: url(./architecture-gbe27d7814_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.wrpper{
+    width: 350px;
+    text-align: center;
+  
+    margin: 8% auto;
+    padding: 10px;
+    background-color: rgba(5, 202, 103, 0.24);
+    box-shadow: 0 0 17px rgb(25, 24, 24);
+    border-radius: 20px;
+}
+.heading {
+    text-align: center;
+    padding-top: 40px;
+}
+.heading h1{
+    color: white;
+    font-size: 45px;
+}
+form{
+    /* text-align: center; */
+    margin-bottom: 40px;
+
+}
+form input ,button{
+    width: 350px;
+    height: 40px;
+    margin-bottom: 30px;
+    border: none;
+    padding-left: 70px;
+    box-sizing: border-box;
+    font-size: 15px;
+    outline: none;
+    border-radius: 2px;
+   
+
+}
+form span{
+    position: relative;
+}
+
+form button{
+    width: 250px;
+    margin-left: 50px;
+    background-color: blue;
+    color: white;
+   font-size: 20px;
+   padding-right: 85px;
+   border-radius: 10px;
+   font-weight: bold;
+
+    
+}
+form button:hover{
+    background-color: blueviolet;
+    color:black;
+}
